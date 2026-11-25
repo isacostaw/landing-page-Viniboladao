@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9fafb;
+    color: #111827;
+}
+
+.navbar{
+    background-color: #4f46e5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem 2rem;
+}
+
+.logo{
+    color: #f9fafb;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links a{
+    color: #f9fafb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover{
+    color: #b048ba;
+}
+.hero{
+     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem;
+    background-color: #f9fafb;
+}
+
+.hero-texto{
+    max-width: 500px;
+}
+
+.hero-texto h1{
+    font-size: 2,5rem;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.hero text p {
+    font-size: 1.125rem;
+    color: #6b7280;
+    margin-bottom: 2rem;
+}
+
+.hero-imagem{
+    text-align: center;
+}
+
+.hero-imagem img{
+    max-width: 90%;
+    height: auto;
+}
+.btn-cta{
+    background-color: #4338ca;
+}
+
+.conteudo{
+    padding: 4rem 2 rem;
+    background-color: #f9fafb;
+    text-align: center;
+}
+
+.conteudo h2{
+    font-size: 2rem;
+    color: #111827;
+    margin-bottom: 2rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.card{
+    background-color: #f9fafb;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgb( 0, 0, 0, 1);
+    transition: transorm 0.3s;
+}
+.card:hover{
+    transform: translate(-5px);
+}
+.card h3 {
+    color: #4f46e5;
+    margin-bottom: 1rem;
+}
+.card p{
+    color: #6b7280;
+}
